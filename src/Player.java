@@ -1,13 +1,14 @@
+
 public class Player {
 	
 	public String name = "";
-	ArrayList<Tiles> tiles = new ArrayList<Tiles>();
+	ArrayList<Tile> myTiles = new ArrayList<Tile>();
 	
 	
-	public Player(String name) {
+	public Player(String name){
 		
 		this.name = name;
 	}
-	public void addTile(Tiles input ){
-		tiles.add(input);
+	public void addTile(Tile input ){
+		myTiles.add(input);
 	}
